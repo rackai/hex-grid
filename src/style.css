@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+}
+
+li {
+  position: absolute;
+  background: black;
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+}
+
+li div {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  text-align: center;
+  margin: .35em 0;
+  font-size: 13px;
+}
